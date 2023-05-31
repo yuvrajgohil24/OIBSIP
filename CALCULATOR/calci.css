@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap'); */
+html, body {
+
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(2,152,230,1) 66%, rgba(0,212,255,1) 83%);
+
+  font-family: 'Roboto', sans-serif; 
+}
+
+.container {
+    background-color: rgba(151, 178, 210, 0.992);
+    display: flex;
+    flex-direction: column;
+    margin: 17vh 35.6vw;
+    padding: 22px 0;
+    padding-left: 35px;
+    border-radius: 25px;
+}
+
+
+.button{
+  width: 60px;
+  font-weight: bold;
+  font-size: large;
+  padding: 18px 10px;
+  margin: 0 5px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.enter{
+  width: 34%;
+  background-color:rgb(150, 245, 245) ;
+  color: rgb(93, 93, 144);
+
+}
+.digits{
+  background-color:rgb(190, 239, 239) ;
+  color: rgb(93, 93, 144);
+}
+
+.button:hover{
+    background-color:bisque;
+    font-size: 1.08rem;
+}
+
+.row{
+  margin: 8px 0;
+}
+.row input{
+  width: 355px;
+  font-size: 20px;
+  margin: 0 5px;
+  padding: 10px 0px;
+  border: 1.8px solid black;
+  border-radius: 8px;
+}
