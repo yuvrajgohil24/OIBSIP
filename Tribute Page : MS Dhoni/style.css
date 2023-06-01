@@ -1,19 +1,27 @@
-body{
-    background-color: darkgrey;
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html body{
+background-color: #298aa8;
+background-image: linear-gradient(45deg, #298aa8 21%, #cbc73b 85%);
 }
 
 header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Fira Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 header p{
-    font-weight: bolder;
-    font-style: italic;
-    text-decoration: dashed;
+  font-weight: bolder;
+  font-size: large;
+  font-style: italic;
+  text-decoration: dashed;
 }
 
 header h1{
@@ -22,9 +30,14 @@ header h1{
 }
 
 h2{
-  background-color: #5b62a2;
+background-color: rgba(177, 97, 70, 0.84);
+  border-radius: 10px;
   padding: 2vh;
+  margin: 1.2vh 0;
   text-decoration: underline;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
 main article{
@@ -32,8 +45,8 @@ main article{
     flex-direction: column;
     margin: 0 60px;
     text-align: center;
-    font-family: 'Fira Sans', sans-serif;
-    /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Courgette', cursive;
+  font-size: large;
 }
 
 .second{
@@ -41,14 +54,19 @@ main article{
     justify-content: center;
 }
 
+#second p{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
 .second h2{
     
   border: 211.5px solid lavender
 }
 @import url('https://fonts.googleapis.com/css?family=Raleway:200');
-body {
-  font-family: 'Raleway', sans-serif;
-  background:rgb(71, 66, 66);
+section {
+font-family: 'Poppins', sans-serif;
+background:rgb(71, 66, 66);
 }
 
 .wrapper {
@@ -84,7 +102,7 @@ body {
 
 #c4 {
   position: absolute;
-  top: 90%;
+  top: 95%;
   width: 133.1%;
   height: 100%;
   left: -15%;
@@ -95,7 +113,7 @@ body {
 
 #c5 {
   position: absolute;
-  top: 90%;
+  top: 95%;
   width: 133.1%;
   height: 100%;
   left: 150%;
@@ -121,7 +139,7 @@ body {
 }
 
 #c3 {
-  top: 90%;
+  top: 95%;
   left: -170%;
   z-index: 0;
   background: linear-gradient(to bottom, #59476f 30%, #7b88d1 100%);
@@ -247,10 +265,10 @@ span {
 }
 
 .story:hover{
-    opacity:86%;
+    opacity:88%;
 }
 .story p:hover{
-    color: #111;
+    color: rgb(35, 32, 32);
     font-weight: 520;
 }
 
@@ -284,8 +302,11 @@ span {
 }
 
 section > h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.9rem;
+  font-weight: bolder;
   text-decoration: underline;
-  background-color: #5b62a2; 
+  background-color: rgba(215, 121, 90, 0.64);
   padding: 2.5vh; 
   margin: 1vh;
 
@@ -293,9 +314,6 @@ section > h3{
 
 h3 {
   text-align: center;
-  text-shadow: 0px 0px 10px #eee;
-  color: #eee;
-  letter-spacing: 2px;
 }
 
 h4 {
@@ -349,22 +367,29 @@ li:nth-child(2) {
   animation: simple 1s linear infinite;
 }
 
+.story h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 5px;
+
+}
+
+.story p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.84rem;
+}
+
 .last{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-top: 115vh;
-  padding: 6vh;
-  /* background:
-    radial-gradient(farthest-side at top left,
-    rgba(174,255,216,.75),transparent),
-     
-    radial-gradient(farthest-side at bottom left,
-    rgba(255,200,80,.75),transparent),
-    radial-gradient(farthest-corner at bottom right,
-    rgba(231,111,81,.75),transparent) #003b44 ; */
-    background-color: #7f86bf41;
+  padding: 6.1vh;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgb(9, 148, 144) 0%, rgba(35, 39, 50, 0.815) 90% );
 }
 
 .last p{
@@ -375,13 +400,14 @@ li:nth-child(2) {
 
 .last a{
   text-decoration: none;
-  color:#062246;
-  font-size: large;
+  color:#1eca69b1;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .last a:hover{
-  color:rgb(86, 25, 171);
-  font-size:17.8px;
+  color:rgba(15, 12, 57, 0.813);
+  font-size:19px;
 }
 
 
